@@ -1,0 +1,31 @@
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    gap: 142px;
+    padding: 30px 160px 0px 160px;
+}
+
+.logo-header{
+    display: flex;
+}
+
+.logo-header > h1{
+    color: #FF5E00;
+    font-size: 16px;
+}
+
+header > img{
+    width: 162px;
+    height: 25px;
+}
+nav{
+    display: flex;
+    gap: 40px;
+}
+
+body{
+    background-image: url("../assets/img/bg-site.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
